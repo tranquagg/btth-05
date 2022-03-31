@@ -23,6 +23,7 @@ time, mark, audio, video {
     margin: 0;
     box-sizing: border-box;
 }
+
 .wrap-background{
     background: url(./images/bg-top.jpg) no-repeat top center;
 }
@@ -99,15 +100,43 @@ time, mark, audio, video {
     top: 0;
     left: 0;
 }
+.download a{
+    display: block;
+    height: 100%; 
+}
 .register-card{
-    background: url(./images/buttons-left.png) no-repeat center ;
-    width: 241px;
+    width: 239px;
     height: 126px;
     margin-top: 2px;
     position: absolute;
     top: 126px;
-    left: 0;
+    left: 1px;
 }
+.register-card a{
+    display: inline-block;
+    height: 49%;
+    width: 100%;
+ 
+}
+.register-card .register{
+    position: relative;
+    background-image: url(/images/buttons-left.png);
+    background-position: -1px -1px;
+}
+.register-card .register:hover{
+    background-position: -248px -1px;
+    
+}
+.register-card .card{
+    position: relative;
+    background-image: url(/images/buttons-left.png);
+    background-position: -1px -65px;
+}
+.register-card .card:hover{
+    background-position: -248px -65px;
+    
+}
+
 .img-banner{
     background: url(./images/slider-01.gif) no-repeat center center;
     width: 491px;
@@ -129,6 +158,13 @@ time, mark, audio, video {
     width: 254px;
     height: 224px;
     position: absolute;
+}
+.button-right a{
+    display: inline-block;
+    width: 40%;
+    height: 44%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .hotline{
     background: url(./images/hotline.png) no-repeat center;
@@ -157,17 +193,42 @@ time, mark, audio, video {
     width: 743px;
     height: 90px;
     background-image: url(./images/cuuamlenh-vip-giftcode.png);
+    display: flex;
+    justify-content: space-between;
 }
-.section-right{
+.gift-giftcode a{
+    display: block;
+    height: 100%;
+    width: 33%;
+}
+.section-right {
     width: 237px;
-    height: 289px;
+    height: 298px;
     background-color: #112141;
+    padding: 5px;
 }
-.section-right img{
-    width: 227px;
-    height: 279px;
-    margin: 5px;
-   
+.section-right a{
+    background-image: url(./images/links-right.png);
+    display: block;
+    width: 226px;
+    height: 52px;
+    margin-bottom: 7px;
+}
+.section-right .item-1{   
+    background-position:0 1px;
+}
+.section-right .item-2{
+
+    background-position:0 -59px;
+}
+.section-right .item-3{
+    background-position:0 -118px;
+}
+.section-right .item-4{
+    background-position:0 -171px;
+}
+.section-right .item-5{
+    background-position:0 -227px;
 }
 .news-link{
     border-left: 6px solid #112141;
