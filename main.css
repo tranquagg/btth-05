@@ -93,7 +93,6 @@ time, mark, audio, video {
     top: 2px;
 }
 .download{
-    background: url(./images/btn_taigame.jpg) no-repeat center top;
     width: 241px;
     height: 126px;
     position: absolute;
@@ -102,7 +101,12 @@ time, mark, audio, video {
 }
 .download a{
     display: block;
+    background: url(./images/btn_taigame.jpg) no-repeat center top;
+
     height: 100%; 
+}
+.download a:hover{
+    opacity: 0.8;
 }
 .register-card{
     width: 239px;
@@ -120,7 +124,7 @@ time, mark, audio, video {
 }
 .register-card .register{
     position: relative;
-    background-image: url(/images/buttons-left.png);
+    background-image: url(./images/buttons-left.png);
     background-position: -1px -1px;
 }
 .register-card .register:hover{
@@ -129,7 +133,7 @@ time, mark, audio, video {
 }
 .register-card .card{
     position: relative;
-    background-image: url(/images/buttons-left.png);
+    background-image: url(./images/buttons-left.png);
     background-position: -1px -65px;
 }
 .register-card .card:hover{
@@ -191,29 +195,49 @@ time, mark, audio, video {
 }
 .gift-giftcode{
     width: 743px;
-    height: 90px;
-    background-image: url(./images/cuuamlenh-vip-giftcode.png);
+    height: 83px;
     display: flex;
     justify-content: space-between;
 }
 .gift-giftcode a{
     display: block;
+    background-image: url(./images/cuuamlenh-vip-giftcode.png);
     height: 100%;
     width: 33%;
 }
+.gift-giftcode a:hover{
+    opacity: 0.8;
+}
+.gift-giftcode .item-1{
+    background-position: 0 0;
+
+}
+.gift-giftcode .item-2{
+    background-position: -247px 0;
+
+}
+.gift-giftcode .item-3{
+    background-position: -496px 0;
+
+}
+
 .section-right {
-    width: 237px;
-    height: 298px;
+    width: 238px;
+    height: 290px;
     background-color: #112141;
-    padding: 5px;
+    padding: 5px 6px;
 }
 .section-right a{
     background-image: url(./images/links-right.png);
     display: block;
     width: 226px;
     height: 52px;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
+.section-right a:hover{
+    opacity: 0.9;
+}
+
 .section-right .item-1{   
     background-position:0 1px;
 }
