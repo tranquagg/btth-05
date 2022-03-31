@@ -124,7 +124,7 @@ time, mark, audio, video {
 }
 .register-card .register{
     position: relative;
-    background-image: url(./images/buttons-left.png);
+    background-image: url('./images/buttons-left.png');
     background-position: -1px -1px;
 }
 .register-card .register:hover{
@@ -133,7 +133,7 @@ time, mark, audio, video {
 }
 .register-card .card{
     position: relative;
-    background-image: url(./images/buttons-left.png);
+    background-image: url('./images/buttons-left.png');
     background-position: -1px -65px;
 }
 .register-card .card:hover{
@@ -201,7 +201,7 @@ time, mark, audio, video {
 }
 .gift-giftcode a{
     display: block;
-    background-image: url(./images/cuuamlenh-vip-giftcode.png);
+    background-image: url('./images/cuuamlenh-vip-giftcode.png');
     height: 100%;
     width: 33%;
 }
