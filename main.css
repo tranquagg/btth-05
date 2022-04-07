@@ -55,7 +55,8 @@ time, mark, audio, video {
     list-style: none;
 }
 .nav-list li:hover .nav-link{
-    opacity: 0.6;
+    color: #e3980d;
+
 }
 .nav-link {
     text-decoration: none;
@@ -109,7 +110,8 @@ time, mark, audio, video {
     height: 100%; 
 }
 .download a:hover{
-    opacity: 0.8;
+    transform: scale(1.01);
+
 }
 .register-card{
     width: 239px;
@@ -159,7 +161,6 @@ time, mark, audio, video {
     position: absolute;
     top: 0px;
     left: 752px;
-    background-image: url(./images/buttons-right.png) ;
 }
 .button-right-container{
     width: 230px;
@@ -170,10 +171,47 @@ time, mark, audio, video {
     grid-template-rows: auto auto;
     gap:5px
 }
-.button-right-container a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
 
+
+.button-right-item-1 a{
+    background-image: url(./images/buttons-right.png) ;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 112px;
+    height: 113px;
+
+}
+.button-right-item-2 a{
+    background-image: url(./images/buttons-right.png) ;
+    background-position: 140px 0;
+    position: absolute;
+    top: 2px;
+    left: 115px;
+    width: 140px;
+    height: 113px;
+}
+.button-right-item-3 a{
+    background-image: url(./images/buttons-right.png) ;
+    background-position: 0px 103px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 110px;
+    height: 102px;
+}
+.button-right-item-4 a{
+    background-image: url(./images/buttons-right.png) ;
+    background-position: 140px 104px;
+    position: absolute;
+    top: 120px;
+    left: 115px;
+    width: 115px;
+    height: 102px;
+}
+.button-right-container a:hover {
+    transform: scale(1.01);
+}
 
 .hotline{
     background: url(./images/hotline.png) no-repeat center;
@@ -211,7 +249,8 @@ time, mark, audio, video {
     width: 33%;
 }
 .gift-giftcode a:hover{
-    opacity: 0.8;
+    transform: scale(1.01);
+
 }
 .gift-giftcode .item-1{
     background-position: 0 0;
@@ -240,7 +279,8 @@ time, mark, audio, video {
     margin-bottom: 5px;
 }
 .section-right a:hover{
-    opacity: 0.9;
+    transform: scale(1.01);
+
 }
 
 .section-right .item-1{   
@@ -286,7 +326,7 @@ time, mark, audio, video {
     font-weight: bold;
 }
 .nav-news a:hover{
-    opacity: 0.6;
+    color:#fff;
 }
 
 .more-news {
@@ -330,7 +370,7 @@ time, mark, audio, video {
     
 }
 .news-content-title a:hover{
-    opacity: 0.6;
+    color: #e3980d;
 }
 .datetime{
     font-size: 13px; 
@@ -415,7 +455,7 @@ time, mark, audio, video {
     padding: 0 5px;
 }
 .footer-link a:hover{
-    opacity: 0.6;
+    color: #e3980d;
 }
 
 .rs{
