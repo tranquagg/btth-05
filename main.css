@@ -54,6 +54,9 @@ time, mark, audio, video {
     border-right: 1px solid #6f7179;
     list-style: none;
 }
+.nav-list li:hover .nav-link{
+    opacity: 0.6;
+}
 .nav-link {
     text-decoration: none;
     color: #fff;
@@ -151,25 +154,27 @@ time, mark, audio, video {
     left: 250px;
 }
 .right-button{
-    width: 241px;
-    height: 254px;
-    position: absolute;
-    top: 0px;
-    left: 752px;
-}
-.button-right{
-    background: url(./images/buttons-right.png) no-repeat center;
     width: 254px;
     height: 224px;
     position: absolute;
+    top: 0px;
+    left: 752px;
+    background-image: url(./images/buttons-right.png) ;
 }
-.button-right a{
-    display: inline-block;
-    width: 40%;
-    height: 44%;
-    margin-top: 10px;
-    margin-left: 10px;
+.button-right-container{
+    width: 230px;
+    height: 220px;
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap:5px
 }
+.button-right-container a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
 .hotline{
     background: url(./images/hotline.png) no-repeat center;
     width: 229px;
@@ -280,6 +285,10 @@ time, mark, audio, video {
     color: #c7a87a;
     font-weight: bold;
 }
+.nav-news a:hover{
+    opacity: 0.6;
+}
+
 .more-news {
     margin-left: 117px;
 }
@@ -300,6 +309,10 @@ time, mark, audio, video {
     width: 143px;
     height: 137px;
 }
+.news-image img:hover{
+    transform: translateY(-1px);
+}
+
 .news-content{
     width: 475px;
     margin-left: 20px;
@@ -316,6 +329,9 @@ time, mark, audio, video {
     text-decoration: none;
     
 }
+.news-content-title a:hover{
+    opacity: 0.6;
+}
 .datetime{
     font-size: 13px; 
     margin: 7px 0;
@@ -328,7 +344,7 @@ time, mark, audio, video {
 
 }
 .button{
-    width: 230px;
+    width: 230px;   
     height: 50px;
     margin-top: 25px;
     margin-left: 450px;
@@ -336,27 +352,35 @@ time, mark, audio, video {
     justify-content: space-around;
     align-items: center;
 }
-.button .move-home {
+
+
+.button .move-home,.more {
     background-color: #112141;
     border: 3px solid #6f7179;
-    padding: 10px;
-
+    min-width: 93px;
+    height: 44px;
 }
 .button .move-home a {
     font-size: 14px;
     text-decoration: none;
     color:#6f7179;
-}
-.button .more {
-    background-color: #112141;
-    border: 3px solid #6f7179;
-    padding: 10px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    display: block;
 
 }
 .button .more a {
     font-size: 14px;
     text-decoration: none;
     color:#6f7179;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+
+}
+.button a:hover{
+    color: rgba(255,255,255,0.6);
 }
 .footer{
     width: 100%;
@@ -390,6 +414,10 @@ time, mark, audio, video {
     color:#000;
     padding: 0 5px;
 }
+.footer-link a:hover{
+    opacity: 0.6;
+}
+
 .rs{
     margin-top: 5px;
 }
